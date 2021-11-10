@@ -24,14 +24,19 @@ body {
     height: 100vh;
     z-index: 1;
     position: relative;
-    margin-top: 100vh;
+    margin-top: 225vh;
+}
+
+#nano-kitchen-bg {
+    height: 100vh;
+    width: 100vw;
 }
 
 #textbox1 {
-    z-index: 1;
-    top: 20em;
+    z-index: 2;
+    top: 50em;
     text-align: center;
     position: relative;
-    font-family: helvetica;
+    font-family: arial;
     font-size: 25px;
 }
