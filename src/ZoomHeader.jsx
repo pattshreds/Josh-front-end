@@ -143,32 +143,15 @@ const ZoomHeader = () => {
 
     // Setting up a function that will change the background state with each incrememnt of scrollPos.
 
-    const nextImg = (res) => {
-        while (scrollPos++) {
-            for (let i = 0; i < fullsizeImages.length; i++) {
-                res = fullsizeImages[i];
-            }
-        }
-    };
-
-    const handleScroll = () => {
-        document.addEventListener('wheel', (e) => {
-            if (e.deltaY > 0) {
-                scrollPos++;
-                nextImg();
-                setBackground(res);
-                // console.log('scroll position ' + scrollPos);
-            } else {
-                scrollPos--;
-                // console.log('scroll position ' + scrollPos);
-            }
-        });
-    };
-
     return (
         <>
-            <div id='imgbox' onScroll={handleScroll()}>
+            <div id='imgbox'>
                 <img src={background} key={key} alt='images' className='imgs' />
+            </div>
+            <div id='textbox1'>
+                <h1>
+                    Say Hello <br /> to Josh Nano
+                </h1>
             </div>
         </>
     );
