@@ -3,40 +3,256 @@ body {
     padding: 0;
 }
 
-#imgbox {
-    top: 0;
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    z-index: 0;
-}
+/* ================================ */
+/* Slide One */
+/* ================================ */
 
-.imgs {
-    top: 0;
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-}
-
-#nano-kitchen {
-    width: 100vw;
-    height: 100vh;
-    z-index: 1;
-    position: relative;
-    margin-top: 225vh;
-}
-
-#nano-kitchen-bg {
-    height: 100vh;
-    width: 100vw;
-}
-
-#textbox1 {
-    z-index: 2;
-    top: 50em;
+#slide-one-container {
     text-align: center;
+    background-color: green;
+    height: 15rem;
+    padding: 3rem;
+}
+
+#slide-one-text {
+    font-size: 20px;
+}
+
+/* ================================ */
+/* Nav */
+/* ================================ */
+
+#navbox {
+    height: 3rem;
+    width: 100vw;
+    background-color: steelblue;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#navul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navli {
+    padding: 2rem;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    font-family: helvetica;
+    font-size: 0.9rem;
+}
+
+#navloginlink {
+    text-decoration: none;
     position: relative;
-    font-family: arial;
-    font-size: 25px;
+    top: 1rem;
+    right: 2rem;
+    color: white;
+    font-family: helvetica;
+    font-size: 0.9rem;
+}
+
+.navlink:hover,
+#navloginlink:hover {
+    opacity: 0.5;
+}
+
+/* ================================ */
+/* Slide Two */
+/* ================================ */
+
+#slide-two-container {
+    height: 92vh;
+    padding: 1rem;
+}
+
+#slide-two-header {
+    padding: 0;
+    margin: 0;
+    width: 45rem;
+    position: relative;
+    top: 18rem;
+    left: 20rem;
+    text-align: left;
+    font-family: didot;
+    font-size: 2.4rem;
+    color: floralwhite;
+    line-height: 5rem;
+}
+
+#slide-two-text {
+    padding: 0;
+    margin: 0;
+    width: 35rem;
+    font-family: helvetica;
+    font-weight: 100;
+    letter-spacing: 0.15rem;
+    line-height: 1.8rem;
+    font-size: 1.35rem;
+    color: mintcream;
+    text-align: left;
+    position: relative;
+    top: 16.2rem;
+    left: 20.8rem;
+}
+
+/* ================================ */
+/* Slide Three */
+/* ================================ */
+
+#slide-three-container {
+    height: 92vh;
+    padding: 1rem;
+}
+
+#slide-three-header {
+    padding: 0;
+    margin: 0;
+    width: 45rem;
+    position: relative;
+    top: 20rem;
+    left: 50rem;
+    text-align: left;
+    font-family: didot;
+    font-size: 2.4rem;
+    color: #292929;
+    line-height: 5rem;
+}
+
+#slide-three-text {
+    width: 35rem;
+    position: relative;
+    top: 18rem;
+    left: 51rem;
+    text-align: left;
+    font-family: helvetica;
+    font-size: 1.35rem;
+    color: #292929;
+    font-weight: 100;
+    letter-spacing: 0.15rem;
+    line-height: 1.8rem;
+}
+
+/* ================================ */
+/* Slide Four */
+/* ================================ */
+
+#slide-four-container {
+    height: 92vh;
+    padding: 1rem;
+}
+
+#slide-four-header {
+    padding: 0;
+    margin: 0;
+    width: 45rem;
+    position: relative;
+    top: 25rem;
+    left: 45rem;
+    text-align: left;
+    font-family: didot;
+    font-size: 3.5rem;
+    color: floralwhite;
+    line-height: 5rem;
+}
+
+#slide-four-text {
+    width: 32rem;
+    position: relative;
+    top: 24rem;
+    left: 47rem;
+    text-align: right;
+    font-family: helvetica;
+    font-size: 1.3rem;
+    color: floralwhite;
+    font-weight: 100;
+    line-height: 1.8rem;
+}
+
+/* ================================ */
+/* Slide Five */
+/* ================================ */
+
+#slide-five-container {
+    height: 90vh;
+    padding: 1rem;
+    background-color: #fbfafb;
+}
+
+#slide-five-header {
+    padding: 0;
+    margin: 0;
+    width: 45rem;
+    position: relative;
+    top: 20rem;
+    left: 52rem;
+    text-align: left;
+    font-family: didot;
+    font-size: 3.5rem;
+    color: black;
+    line-height: 5rem;
+}
+
+#slide-five-text {
+    width: 32rem;
+    position: relative;
+    top: 20rem;
+    left: 53rem;
+    text-align: right;
+    font-family: helvetica;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 100;
+    line-height: 1.8rem;
+}
+
+#slide-five-video {
+    position: relative;
+    top: 7rem;
+    left: 23rem;
+}
+
+/* ================================ */
+/* Slide six */
+/* ================================ */
+
+#slide-six-container {
+    height: 90vh;
+    padding: 1rem;
+}
+
+#slide-six-header {
+    padding: 0;
+    margin: 0;
+    width: 44rem;
+    position: relative;
+    top: 20rem;
+    left: 15rem;
+    text-align: left;
+    font-family: didot;
+    font-size: 5rem;
+    color: floralwhite;
+    line-height: 5rem;
+}
+
+#slide-six-text {
+    width: 32rem;
+    position: relative;
+    top: 20rem;
+    left: 15rem;
+    text-align: left;
+    font-family: helvetica;
+    font-size: 1.3rem;
+    color: floralwhite;
+    font-weight: 100;
+    line-height: 1.8rem;
+    letter-spacing: 0.08rem;
 }

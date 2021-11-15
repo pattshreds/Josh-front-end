@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
+import { useSpring, animated } from 'react-spring';
 
 // Images Arrays
 
-const ZoomHeader = () => {
+const SlideOne = () => {
+    const props = useSpring({
+        to: { opacity: 1, marginTop: 0 },
+        from: { opacity: 0, marginTop: -500 },
+    });
     const [background, setBackground] = useState(
         'https://d35408cyocioye.cloudfront.net/new3/nano/nano-hero00.jpg'
     );
@@ -138,23 +143,40 @@ const ZoomHeader = () => {
 
     // End Images Arrays
 
-    let scrollPos = 0;
-    let res = '';
-
-    // Setting up a function that will change the background state with each incrememnt of scrollPos.
-
     return (
         <>
-            <div id='imgbox'>
-                <img src={background} key={key} alt='images' className='imgs' />
-            </div>
-            <div id='textbox1'>
-                <h1>
-                    Say Hello <br /> to Josh Nano
-                </h1>
-            </div>
+            <animated.div style={props} id='slide-one-container'>
+                <p id='slide-one-text'>
+                    This will be the zoom-in first slide found on Josh.ai/nano.
+                    This will be the zoom-in first slide found on Josh.ai/nano.
+                    This will be the zoom-in first slide found on Josh.ai/nano.
+                    This will be the zoom-in first slide found on Josh.ai/nano.
+                    This will be the zoom-in first slide found on Josh.ai/nano.
+                    This will be the zoom-in first slide found on Josh.ai/nano.
+                    This will be the zoom-in first slide found on Josh.ai/nano.
+                    This will be the zoom-in first slide found on Josh.ai/nano.
+                    This will be the zoom-in first slide found on Josh.ai/nano.
+                    This will be the zoom-in first slide found on Josh.ai/nano.
+                    This will be the zoom-in first slide found on Josh.ai/nano.
+                    This will be the zoom-in first slide found on
+                    Josh.ai/nano.This will be the zoom-in first slide found on
+                    Josh.ai/nano. This will be the zoom-in first slide found on
+                    Josh.ai/nano. This will be the zoom-in first slide found on
+                    Josh.ai/nano. This will be the zoom-in first slide found on
+                    Josh.ai/nano. This will be the zoom-in first slide found on
+                    Josh.ai/nano. This will be the zoom-in first slide found on
+                    Josh.ai/nano. This will be the zoom-in first slide found on
+                    Josh.ai/nano. This will be the zoom-in first slide found on
+                    Josh.ai/nano. This will be the zoom-in first slide found on
+                    Josh.ai/nano. This will be the zoom-in first slide found on
+                    Josh.ai/nano. This will be the zoom-in first slide found on
+                    Josh.ai/nano. This will be the zoom-in first slide found on
+                    Josh.ai/nano. This will be the zoom-in first slide found on
+                    Josh.ai/nano.
+                </p>
+            </animated.div>
         </>
     );
 };
 
-export default ZoomHeader;
+export default SlideOne;

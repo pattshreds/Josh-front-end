@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102" height="205" viewBox="0 0 102 205">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <text fill="#FFF" font-family="Lato-Regular, Lato" font-size="15" transform="translate(-755 -6635) translate(0 6475) translate(755 160)">
+                        <tspan x=".335" y="202">3mm</tspan>
+                    </text>
+                    <g fill="#535352">
+                        <path d="M0 0H19V1H0z" transform="translate(-755 -6635) translate(0 6475) translate(755 160) translate(30)"/>
+                        <path d="M9 0H10V150H9z" transform="translate(-755 -6635) translate(0 6475) translate(755 160) translate(30)"/>
+                        <path d="M0 149H19V150H0z" transform="translate(-755 -6635) translate(0 6475) translate(755 160) translate(30)"/>
+                    </g>
+                    <text fill="#FFF" font-family="Lato-Regular, Lato" font-size="15" transform="translate(-755 -6635) translate(0 6475) translate(755 160)">
+                        <tspan x="59.97" y="78">42mm</tspan>
+                    </text>
+                    <path stroke="#9A9A95" d="M12.5 0.5H19.5V149.5H12.5z" transform="translate(-755 -6635) translate(0 6475) translate(755 160)"/>
+                    <g fill="#535352">
+                        <path d="M0 0H19V1H0z" transform="translate(-755 -6635) translate(0 6475) translate(755 160) rotate(90 -67.5 87.5)"/>
+                        <path d="M9 0L10 0 10 8 9 8z" transform="translate(-755 -6635) translate(0 6475) translate(755 160) rotate(90 -67.5 87.5)"/>
+                        <path d="M0 7H19V8H0z" transform="translate(-755 -6635) translate(0 6475) translate(755 160) rotate(90 -67.5 87.5)"/>
+                    </g>
+                    <path stroke="#9A9A95" d="M19.5 130.5H21.5V134.5H19.5z" transform="translate(-755 -6635) translate(0 6475) translate(755 160)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
