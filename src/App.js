@@ -7,6 +7,7 @@ import SlideThree from './components/SlideThree';
 import SlideFour from './components/SlideFour';
 import SlideFive from './components/SlideFive';
 import SlideSix from './components/SlideSix';
+import SlideSeven from './components/SlideSeven';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
             <SlideFour />
             <SlideFive />
             <SlideSix />
+            <SlideSeven />
         </div>
     );
 }
