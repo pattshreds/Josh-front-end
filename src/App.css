@@ -277,3 +277,54 @@ body {
     height: 114vh;
     width: 110vw;
 }
+
+/* ================================ */
+/* Slide Eight */
+/* ================================ */
+
+#slide-eight-container {
+    height: 100vh;
+    background-size: cover;
+}
+
+#lutron {
+    height: 8%;
+    position: relative;
+    top: 20rem;
+    left: 60rem;
+}
+
+#slide-eight-text {
+    width: 32rem;
+    position: relative;
+    top: 22rem;
+    left: 60rem;
+    text-align: left;
+    font-family: helvetica;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 100;
+    line-height: 1.8rem;
+    letter-spacing: 0.08rem;
+}
+
+#learn-more {
+    position: relative;
+    top: 25rem;
+    left: 60rem;
+    background-color: steelblue;
+    border-radius: 0.8rem;
+    height: 2.5rem;
+    width: 8rem;
+    border-style: hidden;
+}
+
+#learn-more a {
+    color: floralwhite;
+    text-decoration: none;
+}
+
+#learn-more:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}

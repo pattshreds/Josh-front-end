@@ -8,6 +8,7 @@ import SlideFour from './components/SlideFour';
 import SlideFive from './components/SlideFive';
 import SlideSix from './components/SlideSix';
 import SlideSeven from './components/SlideSeven';
+import SlideEight from './components/SlideEight';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
             <SlideFive />
             <SlideSix />
             <SlideSeven />
+            <SlideEight />
         </div>
     );
 }
